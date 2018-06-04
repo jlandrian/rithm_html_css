@@ -1,0 +1,7 @@
+#test-box {
+    box-sizing: border-box;
+    padding: 20px;
+    color: aquamarine;
+    border: 3px solid black;
+    border-radius: 10px;
+}
