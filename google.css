@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.left{
+    float: left;
+}
+
+.left li, .right li{
+    display: inline;
+
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
+#g-logo{
+    margin-top: 37px;
+    box-sizing: border-box;
+    text-align: center;
+    clear: both;
+}
+
+#search{
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    border:1px solid red;
+    height: 50px;
+    width: 100%;
+}
