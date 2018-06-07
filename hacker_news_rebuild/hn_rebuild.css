@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+table {
+    width: 85%;
+}
+
+.navbar {
+    background: #FF6317;
+    padding: 2px;
+}
+
+#logo {
+    border: 1px solid #fff;
+}
+
+#title {
+    display: inline;
+    font-weight: bold;
+}
+
+.top-nav {
+    display: inline;
+    list-style: none;
+    margin-left: -35px;
+    border: 1px solid green;
+    margin-top: -300px;
+}
+
+.top-nav li {
+    display: inline;
+}
+
+#login {
+    float: right;
+}
