@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: 70.4%;
+    width: 1008px;
     margin: 0 auto;
     border-right: 2px solid black;
     border-left: 1px solid black;
@@ -17,7 +17,7 @@ body {
 #day {
     font-size: 10.5px;
     background-color: #403B39;
-    padding: 2px 0 2px 1px;
+    padding: 2px 0 2px 2px;
     color: #fff;
     letter-spacing: -0.4pt;
 }
