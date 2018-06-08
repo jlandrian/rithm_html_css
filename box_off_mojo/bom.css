@@ -69,3 +69,19 @@ body {
     width: 19.3px;
     height: 18px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.col-1 {
+    display: inline-block;
+    width: 10%;
+    border: 1px solid red;
+}
+
+.col-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
