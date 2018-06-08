@@ -80,7 +80,7 @@ ul {
     border: 1px solid red;
 }
 
-.col-2 {
+.col-2, .col-3 {
     display: inline-block;
     vertical-align: top;
     width: 30%;
