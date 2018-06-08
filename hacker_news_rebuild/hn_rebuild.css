@@ -38,6 +38,7 @@ nav {
 
  .number {
      color: #777;
+     text-align: right;
  }
 
  .inner-row {
@@ -58,4 +59,9 @@ nav {
      padding: 10px 0 10px 0;
      font-size: 14px;
      color: #777;
+ }
+
+ hr {
+     height: 2px;
+     background-color: #FF6317;
  }

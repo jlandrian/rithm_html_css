@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 70.4%;
+    margin: 0 auto;
+    border-right: 2px solid black;
+    border-left: 1px solid black;
+}
+
+#day {
+    font-size: 10.5px;
+    background-color: #403B39;
+    padding: 2px 0 2px 1px;
+    color: #fff;
+    letter-spacing: -0.4pt;
+}
+
+#day a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#day a:hover {
+    text-decoration: underline;
+}
+
+#time {
+    float: right;
+    padding-right: 2px;
+}
+
+#logo-sec {
+    position: relative;
+    background-color: #eee;
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#bom-logo {
+    position: absolute;
+    bottom: -12px;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+#social {
+    text-align: right;
+    margin-right: 20px;
+}
+
+#social img {
+    margin-right: 10px;
+}
+
+#imdb-link {
+    height: 20px;
+    width: 89px;
+}
+
+.tw-btn {
+    width: 19.3px;
+    height: 18px;
+}
