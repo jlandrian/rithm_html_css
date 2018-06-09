@@ -3,7 +3,16 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 .clear {
+
     clear: both;
 }
 
@@ -53,7 +62,7 @@ body {
 
 #social {
     text-align: right;
-    margin-right: 20px;
+    margin: 0 20px 45px 0;
 }
 
 #social img {
@@ -72,16 +81,59 @@ body {
 
 ul {
     list-style-type: none;
+    font-size: 12px;
+    margin-top: 4px;
+    letter-spacing: -.8px;
 }
+
+ul li {
+    margin-left: -35px;
+    margin-bottom: 3px;
+    line-height: 18px;
+}
+
+
 
 .col-1 {
     display: inline-block;
     width: 10%;
-    border: 1px solid red;
+    margin-left: 5px;
 }
 
 .col-2, .col-3 {
     display: inline-block;
     vertical-align: top;
     width: 30%;
+}
+
+.list-head {
+    font-weight: bold;
+    font-size: 12.5px;
+    letter-spacing: -.5px;
+}
+
+#search-bar {
+    width: 90px;
+}
+
+.at {
+    font-size: 8px;
+    margin-left: 5px;
+    color: #999;
+}
+
+form {
+    margin-bottom: 8px;
+}
+
+.section-head {
+    color: #880000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.headline {
+    border-top: 1px solid #777;
 }
