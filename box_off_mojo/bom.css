@@ -107,6 +107,11 @@ ul li {
     width: 30%;
 }
 
+.col-3 {
+    width: 25%;
+    margin-left: 5px;
+}
+
 .list-head {
     font-weight: bold;
     font-size: 13px;
@@ -131,8 +136,6 @@ form {
     color: #880000;
     font-weight: bold;
     text-transform: uppercase;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    /* font-size: 15px; */
 }
 
 .headline {
@@ -160,6 +163,7 @@ form {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 11px;
+    padding: 3px 0;
 }
 
 th {
@@ -169,12 +173,12 @@ th {
 
 table {
     border-collapse: collapse;
-    /* border:1px solid black; */
     width: 100%;
 }
 
 .top-row {
     border-bottom: 1px solid black;
+    text-transform: uppercase;
 }
 
 .showdown-title {
@@ -196,4 +200,25 @@ table {
 
 .table-end {
     padding: 5px 0;
+}
+
+.sm-table-border {
+    border: 1px solid black;
+}
+
+.sm-table-content {
+    font-size: 11px;
+}
+
+.right {
+    text-align: right;
+}
+
+.th-schedule {
+    color: #000;
+    text-align: center;
+}
+
+.table-top-margin {
+    margin-top: 30px;
 }
