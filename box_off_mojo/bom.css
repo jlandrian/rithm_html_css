@@ -2,6 +2,7 @@ body {
     font-family: Tahoma,Verdana,Segoe,Arial,sans-serif;
     margin: 0;
     font-size: 13px;
+    background: #ccc;
 }
 
 a {
@@ -22,11 +23,12 @@ a:hover {
     margin: 0 auto;
     border-right: 2px solid black;
     border-left: 1px solid black;
+    background: #fff;
 }
 
 #day {
     font-size: 10.5px;
-    background-color: #403B39;
+    background-color: #666;
     padding: 2px 0 2px 2px;
     color: #fff;
     /* letter-spacing: -0.4pt; */
@@ -112,10 +114,17 @@ ul li {
     margin-left: 5px;
 }
 
+.col-4 {
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
 .list-head {
     font-weight: bold;
     font-size: 13px;
-    /* letter-spacing: -.5px; */
+
 }
 
 #search-bar {
@@ -221,4 +230,85 @@ table {
 
 .table-top-margin {
     margin-top: 30px;
+}
+
+#imdb-pro {
+    width: 300px;
+}
+
+#imdb-showtimes {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid black;
+    margin: 3px 0;
+    width: 100%;
+}
+
+#imdb-showtimes img {
+    vertical-align: middle;
+}
+
+#promo {
+    margin: 30px 0;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    border-top: 1px solid #888;
+    margin-top: 50px;
+    padding-top: 8px;
+}
+
+#footer a {
+    color: #333;
+}
+
+.col-2-footer {
+    margin-left: 5px;
+}
+
+.col-2-footer, .col-3-footer, .col-4-footer, .col-5-footer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-head {
+    font-weight: bold;
+}
+
+#footer ul li{
+    line-height: 13px;
+    color: #333;
+    font-size: 13.25px;;
+}
+
+.col-3-footer {
+    margin-left: 5px;
+}
+
+.col-4-footer {
+    margin-left: 50px;
+}
+
+.col-5-footer {
+    margin: 3px 0 0 170px;
+    width: 30%;
+}
+
+.footer-info {
+    display: inline-block;
+    font-size: 9px;
+}
+
+.footer-info img {
+    width: 34px;
+    height: 16px;
+    vertical-align: top;
+}
+
+#footer p {
+    font-size: 9px;
+    width: 80%;
 }
