@@ -1,0 +1,50 @@
+body {
+    background: rgb(238, 184, 134);
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-style: italic;
+    background: rgb(236, 234, 210);
+    border: 4px dashed black;
+    margin: 10px auto 0 auto;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    background: rgb(236, 234, 210);
+    margin: 0;
+    font-style: italic;
+}
+
+ul, p {
+    border-left: 4px dashed black;
+    border-right: 4px dashed black;
+}
+
+p {
+    padding: 30px;
+}
+
+p, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(236, 234, 210);
+    margin: 0;
+}
+
+li::first-letter {
+    font-size: 24px;
+}
+
+.copyright {
+    text-align: center;
+    border-bottom: 4px dashed black;
+}
+
+.copyright a {
+    text-decoration: none;
+}

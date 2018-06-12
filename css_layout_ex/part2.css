@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    height: 90vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.red {
+    width: 20%;
+    height: 150px;
+    background: red;
+}
+
+.blue {
+    width: 75%;
+    height: 150px;
+    background: blue;
+}
+
+.yellow {
+    width: 100%;
+    background: yellow;
+    height: 150px;
+}
