@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 150px;
+    background: #6159D4;
+}
+
+.row {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.left, .middle, .right {
+    height: 600px;
+    width: 370px;
+}
+
+.left {
+    background: #A43B35;
+}
+
+.middle {
+    background: #3DB881;
+}
+
+.right {
+    background: #D47041;
+}
