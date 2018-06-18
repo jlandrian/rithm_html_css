@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    margin: 0 auto;
+}
+
+header {
+    height: 150px;
+    background: #2A9E0F;
+}
+
+.square {
+    height: 250px;
+    width: 250px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.row {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.left {
+    background: #A4821D;
+}
+
+.middle {
+    background: #D43B28;
+}
+
+.right {
+    background: #4AB3D4;
+}
